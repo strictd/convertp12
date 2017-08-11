@@ -12,8 +12,7 @@
   },
   "author": "Gary Taylor <gary@strictdevelopment.com>",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "google-p12-pem": "^0.1.2"
   }
 }
