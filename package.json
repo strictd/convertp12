@@ -1,6 +1,6 @@
 {
   "name": "@strictd/convertp12",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts .p12 files to .pem files",
   "main": "bin/convertp12.js",
   "bin": {
