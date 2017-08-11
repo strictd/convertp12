@@ -1,0 +1,14 @@
+# Convert .p12 keys to .pem keys
+
+## Binary Executable for node using [google-p12-pem](https://github.com/google/google-p12-pem)
+
+```
+npm install -g @strictd/convertp12
+```
+
+convert your .p12 key with 2 argments.
+- leave off the second argument will automatically use the source file basename with a .pem extension (test.p12 -> test.pem)
+
+```
+convertp12 /path/to/service_account.p12 /path/to/save/service_account.pem
+```
